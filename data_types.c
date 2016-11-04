@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include <limits.h>
-int main()
+void main()
 {
 int a1;
-printf("Introduce an integer value:  ");
+char a2;
+printf("Introduce an integer value:  \n");
 scanf ("%d",&a1);
-printf("The length of integer is:", sizeof(int));
+printf("The length of integer is: %d\n", sizeof(int));
 printf("Value is:%d\n",a1);
-return 0;
+
+printf("Introduce a character from keyboard:\n");
+scanf("%c", &a2);
+printf("Length of a char is: %c\n", sizeof(char));
+printf("Value of character is: %c",a2);
+
 }
