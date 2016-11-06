@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    int a1;
+//short int a2;
+//unsigned int a3;
+//char a4;
+//unsigned char a5;
+//signed char a6;
+//signed int a7;
+//long a8;
+//unsigned long a9;
+    printf( "Enter a value :");
+    scanf("%d", &a1);
+    printf("\nStorage size for int : %d \n", sizeof(int));
+//printf ( "with input value: %d \n", a1);
+
+}
